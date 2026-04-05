@@ -1,0 +1,76 @@
+.ai-dashboard-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin: 10px 0;
+}
+
+.ai-dashboard-card {
+    background: #c6ffec;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.ai-dashboard-card h3 {
+    margin-top: 0;
+}
+
+.progress-bar {
+    background: #007d30;
+    border-radius: 10px;
+    height: 20px;
+    margin: 10px 0;
+}
+
+.progress {
+    background: #4E9258;
+    height: 100%;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+
+.courses-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.course-card {
+    background: #c6ffec;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 120px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.course-card img {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.course-card h4 {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.course-card button {
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    background: #4E9258;
+    color: #180e0e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+}
